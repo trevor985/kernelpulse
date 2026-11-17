@@ -1,0 +1,125 @@
+{
+  "id": "/",
+  "name": "KernelPulse - Hacker & Dev Network",
+  "short_name": "KernelPulse",
+  "description": "Mobile, tablet, and desktop collaboration platform for programmers and hackers featuring live pair programming, sprint matchmaking, code editor, and developer milestones.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "categories": [
+    "developer tools",
+    "productivity",
+    "social"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-phone.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "KernelPulse Live IDE, Pair Programming & Milestones on Phone"
+    },
+    {
+      "src": "/screenshots/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "KernelPulse Systems Architecture, Code Editor & Sprint Hub on Tablet & Desktop"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Live IDE",
+      "short_name": "IDE",
+      "description": "Jump into real-time pair programming IDE",
+      "url": "/?tab=editor",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Direct Messages",
+      "short_name": "Chats",
+      "description": "Open hacker messages and team channels",
+      "url": "/?tab=messages",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Sprint Matchmaker",
+      "short_name": "Sprints",
+      "description": "Find open source sprints matching your skills",
+      "url": "/?tab=match",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pulse Feed",
+      "short_name": "Pulse",
+      "description": "View latest developer milestones and releases",
+      "url": "/?tab=feed",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

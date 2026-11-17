@@ -1,0 +1,8 @@
+{
+  "name": "Remix KernelPulse - Hacker \u0026 Dev Network",
+  "description": "Mobile collaboration platform for programmers and hackers featuring live pair programming, sprint matchmaking, code editor, and developer milestones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
